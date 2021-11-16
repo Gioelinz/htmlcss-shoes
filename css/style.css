@@ -8,15 +8,29 @@
 
 body{
     font-family: 'Rubik Mono One', sans-serif;
+    /* overflow-y: hidden; */
 }
+
+/* Utils */
+
+.red-bg{
+    background-color: red;
+}
+
+.green-bg{
+    background-color: #008000;
+}
+
+.yellow-bg{
+    background-color: yellow;
+}
+
 
 /* Products */
 
 .main-bg{
     height: 100vh;
-    background-color: red;
     position: relative;
-    overflow-y: hidden;
 }
 
 .center-product{
@@ -36,4 +50,8 @@ body{
     text-align: center;
     color: yellow;
     font-size: 45px;
+}
+
+#shoes-3 h1{
+    color: #008000;
 }
