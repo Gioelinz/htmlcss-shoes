@@ -9,3 +9,31 @@
 body{
     font-family: 'Rubik Mono One', sans-serif;
 }
+
+/* Products */
+
+.main-bg{
+    height: 100vh;
+    background-color: red;
+    position: relative;
+    overflow-y: hidden;
+}
+
+.center-product{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main-bg h1{
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    bottom: 15%;
+    transform: translateX(-50%);
+    max-width: 35%;
+    text-align: center;
+    color: yellow;
+    font-size: 45px;
+}
