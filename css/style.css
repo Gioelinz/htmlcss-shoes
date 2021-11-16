@@ -8,7 +8,7 @@
 
 body{
     font-family: 'Rubik Mono One', sans-serif;
-    /* overflow-y: hidden; */
+    overflow-y: hidden;
 }
 
 /* Utils */
@@ -25,6 +25,29 @@ body{
     background-color: yellow;
 }
 
+/* Nav-bar */
+
+.main-nav{
+    position: fixed;
+    z-index: 1;
+    right: 20px;
+    bottom: 40%;
+    transform: translateX(-40%);
+}
+
+li{
+    list-style-type: none;
+    margin: 40px 0;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    border-radius: 50%;
+    background-color: #fff;
+    padding: 15px 20px;
+}
 
 /* Products */
 
